@@ -1,0 +1,143 @@
+body, html {
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.header{
+    background-color: rgba(0, 141, 207, 0.842);
+    height: 76px;
+    line-height: 77px;
+}
+
+.container-fluid{
+    padding: 0;
+
+}
+
+h2{
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+}
+
+.logo {
+    
+    color:white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+.menu a {
+    text-transform: uppercase;
+    color: white;
+    margin-right: 20px;
+}
+
+.menu a:hover{
+    color: #427676;
+}
+
+.banner{
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban{
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.ban img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.inner-banner{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+}
+
+.inner-banner h1{
+    font-family: 'Fredoka One', cursive;
+    color: #F2E30F;
+    text-shadow: 1px 1px 20px black;
+}
+
+.inner-banner .btn-custom{
+    background-color: #006DAB;
+    color: white;
+    height: 45px;
+    
+}
+
+.inner-banner .btn-custom:hover{
+    background-color: #427676;
+}
+
+.separator{
+    height: 3px;
+    width: 5%;
+    border: none;
+    box-shadow: none;
+    background-color: #0DBD51;
+}
+#about{
+    text-align: center;
+    padding-top: 5%;
+}
+.about article h2{
+    text-align: center;
+}
+.about article{
+    margin-top: 5%;
+}
+
+.portfolio .item-folio{
+   padding: 15px;
+}
+.footer{
+    background-color: #008FCF;
+    padding-top: 25px;
+ 
+}
+
+#contact{
+    color: white;
+    text-align: center;
+}
+.form{
+    color: white;
+    font-size: 17px;
+    margin-right: 50px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.fas{
+    
+    font-size: 17px;
+    margin-right: 50px;
+}
+
+.portfolio{
+    padding-bottom: 100px;
+}
